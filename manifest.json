@@ -1,0 +1,29 @@
+{
+
+  "manifest_version": 2,
+  "name": "GDPR Not Consent",
+  "version": "1.0",
+
+  "description": "Hides GDPR Consent Dialogs",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "applications": {
+		"gecko": {
+			"id": "gdpr-not-concent@csicar.de"
+		}
+  },
+  "permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*/*"
+	],
+	"background": {
+		"scripts": [
+			"blocked_domains.js",
+			"background.js"
+		]
+	}
+
+}
