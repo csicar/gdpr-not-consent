@@ -6,7 +6,7 @@ const domains = [
 	"https://static.quantcast.mgr.consensu.org/*/cmpui-popup.js",
 
 	//onetrust
-	"https://consent.truste.com/notice*",
+	"https://consent.trustarc.com/*",
 
 	"https://jadserve.postrelease.com/**",
 
