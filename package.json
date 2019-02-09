@@ -1,6 +1,8 @@
 {
 	"scripts": {
-		"run": "web-ext run"
+		"run": "web-ext run",
+		"build": "web-ext build",
+		"sign": "web-ext sign"
 	},
 	"dependencies": {
 		"web-ext": "^2.9.3"
