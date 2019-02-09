@@ -21,6 +21,16 @@
 			"blocked_domains.js",
 			"background.js"
 		]
-	}
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"content-script.js"
+			]
+		}
+	]
 
 }
