@@ -15,5 +15,8 @@ const domains = [
 	"https://admiral.mgr.consensu.org/portal.html",
 
 
-	"https://*.nocookie.net/*/-/abtesting,oasis_blocking,universal_analytics_js,adengine2_top_js,tracking_opt_in_js,qualaroo_blocking_js"
+	"https://*.nocookie.net/*/-/abtesting,oasis_blocking,universal_analytics_js,adengine2_top_js,tracking_opt_in_js,qualaroo_blocking_js",
+
+	//oath 
+	"https://guce.oath.com/collectConsent*",
 ]
